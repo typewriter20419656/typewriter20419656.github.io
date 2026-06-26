@@ -7,7 +7,7 @@ const translations = {
     eyebrow: "TMU Pharmacy / Music / Racing / Reading",
     title: "陳岳謙",
     subtitle: "北醫藥學系臨床藥學組大一新生",
-    lead: "喜歡在音樂、速度感與閱讀之間充電，也正在台北醫學大學藥學系展開新的學習旅程。",
+    lead: "正在台北醫學大學藥學系展開新的學習旅程，期待雙主修公共衛生，並朝公部門服務的方向前進。",
     contact: "聯絡我",
     viewWork: "查看事蹟",
     name: "陳岳謙",
@@ -19,11 +19,11 @@ const translations = {
     stat3Value: "2X",
     stat3Label: "全國音樂比賽優等",
     aboutTitle: "關於我",
-    aboutText: "我畢業於桃園市復旦高中，現在是台北醫學大學藥學系臨床藥學組的大一新生。對我來說，藥學是一條結合理性、關懷與專業判斷的路；課餘時，我喜歡聽音樂、玩賽車遊戲與閱讀，讓自己保持好奇與節奏感。",
+    aboutText: "我畢業於桃園市復旦高中，現在是台北醫學大學藥學系臨床藥學組的大一新生。對我來說，藥學是一條結合理性、關懷與專業判斷的路；大學期間也預期雙主修公共衛生學系，累積跨領域的健康政策與群體照護視角，朝畢業後進入公部門工作的目標前進。",
     interest1: "聽音樂",
     interest2: "玩賽車遊戲",
     interest3: "看書",
-    interest4: "臨床藥學",
+    interest4: "公共衛生",
     achievement1Title: "英語能力",
     achievement1Text: "高中時於多益聽讀測驗取得 985 分，也曾在全國高中學生英文單字大賽奪得二等獎。",
     achievement2Title: "科學探究",
@@ -31,7 +31,7 @@ const translations = {
     achievement3Title: "音樂表現",
     achievement3Text: "兩次代表學校參加全國學生音樂比賽，皆於打擊樂團組獲得優等。",
     contactTitle: "聯絡我",
-    footer: "歡迎交流學習、音樂、藥學或任何新點子。"
+    footer: "歡迎交流學習、音樂、藥學、公共衛生或任何新點子。"
   },
   en: {
     brand: "Sky Chen",
@@ -41,7 +41,7 @@ const translations = {
     eyebrow: "TMU Pharmacy / Music / Racing / Reading",
     title: "Sky Chen",
     subtitle: "Freshman in Clinical Pharmacy, Taipei Medical University",
-    lead: "I recharge through music, racing games, and books while beginning a new academic journey in pharmacy at Taipei Medical University.",
+    lead: "I am beginning my pharmacy journey at Taipei Medical University, planning to double major in public health and work toward a future in public service.",
     contact: "Contact Me",
     viewWork: "View Record",
     name: "Sky Chen",
@@ -53,11 +53,11 @@ const translations = {
     stat3Value: "2X",
     stat3Label: "National Music Contest Excellence",
     aboutTitle: "About Me",
-    aboutText: "I graduated from Fu-Dan Senior High School in Taoyuan and am now a freshman in the Clinical Pharmacy track at Taipei Medical University. To me, pharmacy combines reasoning, care, and professional judgment. Outside class, I enjoy music, racing games, and reading to stay curious and in rhythm.",
+    aboutText: "I graduated from Fu-Dan Senior High School in Taoyuan and am now a freshman in the Clinical Pharmacy track at Taipei Medical University. To me, pharmacy combines reasoning, care, and professional judgment. During college, I also plan to double major in Public Health, building an interdisciplinary view of health policy and population care as I work toward a future role in the public sector.",
     interest1: "Music",
     interest2: "Racing Games",
     interest3: "Reading",
-    interest4: "Clinical Pharmacy",
+    interest4: "Public Health",
     achievement1Title: "English Ability",
     achievement1Text: "In high school, I scored 985 on the TOEIC Listening and Reading test and won second prize in a national high school English vocabulary competition.",
     achievement2Title: "Science Inquiry",
@@ -65,7 +65,7 @@ const translations = {
     achievement3Title: "Music Performance",
     achievement3Text: "I represented my school twice at the National Student Music Competition, receiving Excellence ratings both times in the percussion ensemble category.",
     contactTitle: "Contact Me",
-    footer: "Open to conversations about learning, music, pharmacy, or new ideas."
+    footer: "Open to conversations about learning, music, pharmacy, public health, or new ideas."
   }
 };
 
