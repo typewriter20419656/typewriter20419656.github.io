@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="zh-Hant" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>陳岳謙 | 個人電子名片</title>
+  <meta name="description" content="陳岳謙的個人自我介紹網站與電子名片，支援中英文與深淺色主題切換。">
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="site-shell">
+    <nav class="topbar" aria-label="主要功能">
+      <a class="brand" href="#" aria-label="回到首頁">
+        <span class="brand-mark">SC</span>
+        <span data-i18n="brand">陳岳謙</span>
+      </a>
+
+      <div class="toolbar">
+        <a class="nav-link" href="#about" data-i18n="navAbout">關於</a>
+        <a class="nav-link" href="#achievements" data-i18n="navAchievements">事蹟</a>
+        <a class="nav-link" href="#contact" data-i18n="navContact">聯絡</a>
+        <button class="icon-button" type="button" id="themeToggle" aria-label="切換深淺色主題" title="切換深淺色主題">
+          <span class="theme-icon" aria-hidden="true"></span>
+        </button>
+        <button class="lang-switch" type="button" id="langToggle" aria-label="Switch language">
+          <span id="langLabel">EN</span>
+        </button>
+      </div>
+    </nav>
+
+    <section class="hero" aria-labelledby="introTitle">
+      <div class="hero-copy">
+        <p class="eyebrow" data-i18n="eyebrow">TMU Pharmacy / Music / Racing / Reading</p>
+        <h1 id="introTitle" data-i18n="title">陳岳謙</h1>
+        <p class="subtitle" data-i18n="subtitle">北醫藥學系臨床藥學組大一新生</p>
+        <p class="lead" data-i18n="lead">
+          喜歡在音樂、速度感與閱讀之間充電，也正在台北醫學大學藥學系展開新的學習旅程。
+        </p>
+
+        <div class="hero-actions" aria-label="頁面導覽">
+          <a class="primary-action" href="#contact" data-i18n="contact">聯絡我</a>
+          <a class="secondary-action" href="#achievements" data-i18n="viewWork">查看事蹟</a>
+        </div>
+      </div>
+
+      <aside class="visual-card" aria-label="個人資訊卡">
+        <div class="signal-grid" aria-hidden="true">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="portrait">
+          <span>SC</span>
+        </div>
+        <div class="profile-meta">
+          <p class="profile-name" data-i18n="name">陳岳謙</p>
+          <p class="profile-role" data-i18n="role">臨床藥學新生 / 英語學習者 / 打擊樂團員</p>
+        </div>
+        <div class="quick-info">
+          <a href="mailto:yuechien.chen@example.com">Email</a>
+          <a href="https://www.instagram.com" target="_blank" rel="noreferrer">Instagram</a>
+          <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
+        </div>
+      </aside>
+    </section>
+
+    <section class="stat-strip" aria-label="個人重點數據">
+      <article>
+        <strong data-i18n="stat1Value">985</strong>
+        <span data-i18n="stat1Label">多益聽讀成績</span>
+      </article>
+      <article>
+        <strong data-i18n="stat2Value">2nd</strong>
+        <span data-i18n="stat2Label">桃園市科展高中職組</span>
+      </article>
+      <article>
+        <strong data-i18n="stat3Value">2X</strong>
+        <span data-i18n="stat3Label">全國音樂比賽優等</span>
+      </article>
+    </section>
+
+    <section class="section-block about-block" id="about" aria-label="關於我">
+      <div class="section-heading">
+        <span class="section-kicker">PROFILE</span>
+        <h2 data-i18n="aboutTitle">關於我</h2>
+      </div>
+      <div class="about-layout">
+        <p data-i18n="aboutText">
+          我畢業於桃園市復旦高中，現在是台北醫學大學藥學系臨床藥學組的大一新生。對我來說，藥學是一條結合理性、關懷與專業判斷的路；課餘時，我喜歡聽音樂、玩賽車遊戲與閱讀，讓自己保持好奇與節奏感。
+        </p>
+        <ul class="tag-list interest-list" aria-label="興趣列表">
+          <li data-i18n="interest1">聽音樂</li>
+          <li data-i18n="interest2">玩賽車遊戲</li>
+          <li data-i18n="interest3">看書</li>
+          <li data-i18n="interest4">臨床藥學</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="content-grid" id="achievements" aria-label="事蹟">
+      <article class="info-card">
+        <span class="card-number">01</span>
+        <h2 data-i18n="achievement1Title">英語能力</h2>
+        <p data-i18n="achievement1Text">
+          高中時於多益聽讀測驗取得 985 分，也曾在全國高中學生英文單字大賽奪得二等獎。
+        </p>
+      </article>
+
+      <article class="info-card">
+        <span class="card-number">02</span>
+        <h2 data-i18n="achievement2Title">科學探究</h2>
+        <p data-i18n="achievement2Text">
+          代表學校參加第 65 屆桃園市科展，於地球與行星科學科高中職組獲得第二名。
+        </p>
+      </article>
+
+      <article class="info-card">
+        <span class="card-number">03</span>
+        <h2 data-i18n="achievement3Title">音樂表現</h2>
+        <p data-i18n="achievement3Text">
+          兩次代表學校參加全國學生音樂比賽，皆於打擊樂團組獲得優等。
+        </p>
+      </article>
+    </section>
+
+    <section class="section-block contact-block" id="contact" aria-label="聯絡我">
+      <div class="section-heading">
+        <span class="section-kicker">CONTACT</span>
+        <h2 data-i18n="contactTitle">聯絡我</h2>
+      </div>
+      <div class="contact-grid">
+        <a class="contact-item" href="mailto:yuechien.chen@example.com">
+          <span>Email</span>
+          <strong>yuechien.chen@example.com</strong>
+        </a>
+        <a class="contact-item" href="https://www.instagram.com" target="_blank" rel="noreferrer">
+          <span>Instagram</span>
+          <strong>@yuechien.rx</strong>
+        </a>
+        <a class="contact-item" href="https://line.me" target="_blank" rel="noreferrer">
+          <span>LINE</span>
+          <strong>yuechienchen</strong>
+        </a>
+        <a class="contact-item" href="https://www.linkedin.com" target="_blank" rel="noreferrer">
+          <span>LinkedIn</span>
+          <strong>Sky Chen</strong>
+        </a>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p data-i18n="footer">歡迎交流學習、音樂、藥學或任何新點子。</p>
+      <span>2026</span>
+    </footer>
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="script.js"></script>
+</body>
+</html>
